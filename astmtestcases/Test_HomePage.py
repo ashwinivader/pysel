@@ -10,11 +10,9 @@ class TestHomepg:
         self.driver.get(base_url)
         self.homepg=Homepage(self.driver)
   
-
     def test_Logo(self):
         print("in testlogo")
         self.homepg.checkLogo()
-
         
     def test_Search(self):
         print("in test search icon")
