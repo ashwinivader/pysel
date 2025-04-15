@@ -1,7 +1,5 @@
 from pyselhelper.seleniumhelper import Selenium_Helper
 from selenium.webdriver.common.by import By
-
-
 import pytest
 from conftest import base_url
 import logging
@@ -16,7 +14,6 @@ class Homepage(Selenium_Helper):
     astmLogo=(By.XPATH,"(//img[@alt='ASTM-newLogo'])[1]")
     searchicon=(By.XPATH,"(//input[@type='search'])[2]")
     
-
 
     def __init__(self,driver):
         super().__init__(driver)

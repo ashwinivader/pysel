@@ -6,7 +6,7 @@ import logging
 # Set up logger for the Homepage class
 logger = logging.getLogger(__name__)
 
-@pytest.mark.usefixtures("browser_setup")
+#@pytest.mark.usefixtures("browser_setup")
 class TestHomepg:
     def setup_class(self):
         print("In setup")

@@ -94,3 +94,5 @@ def pytest_html_report_title(report):
 
 
 # pytest -s --browser_type=chromium
+#For running on many nodes using pytest-xdist
+#pytest -s -n 2 --browser_type=chromium
